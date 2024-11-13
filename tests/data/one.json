@@ -1,0 +1,31 @@
+{
+  "userId": 67890,
+  "username": "janesmith",
+  "isVerified": false,
+  "email": "janesmith@example.com",
+  "signupDate": "2022-11-25T08:30:00Z",
+  "preferences": {
+    "theme": "light",
+    "notifications": {
+      "email": false,
+      "sms": true
+    },
+    "privacy": {
+      "profileVisibility": "friends",
+      "activityStatus": "offline"
+    }
+  },
+  "recentActivity": [
+    {
+      "type": "post",
+      "content": "Just joined this awesome platform!",
+      "timestamp": "2022-11-25T08:45:10Z"
+    },
+    {
+      "type": "like",
+      "postId": "ABC123",
+      "timestamp": "2022-11-26T09:20:45Z"
+    }
+  ]
+}
+

@@ -1,0 +1,172 @@
+{
+  "id": 12345,
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "isActive": true,
+  "balance": 10567.89,
+  "address": {
+    "street": "1234 Elm Street",
+    "city": "Springfield",
+    "state": "IL",
+    "postalCode": "62704"
+  },
+  "preferences": {
+    "notifications": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "language": "en-US",
+    "timezone": "America/Chicago"
+  },
+  "tags": [
+    "user",
+    "admin",
+    "premium",
+    "newsletter"
+  ],
+  "history": [
+    {
+      "action": "login",
+      "timestamp": "2023-05-12T14:23:03Z",
+      "location": {
+        "ip": "192.168.0.1",
+        "city": "Springfield",
+        "device": "desktop"
+      }
+    },
+    {
+      "action": "purchase",
+      "timestamp": "2023-05-13T09:13:07Z",
+      "location": {
+        "ip": "192.168.0.2",
+        "city": "Springfield",
+        "device": "mobile"
+      },
+      "details": {
+        "productId": "A123",
+        "productName": "Widget Pro",
+        "quantity": 2,
+        "price": 19.99,
+        "currency": "USD",
+        "orderStatus": "shipped"
+      }
+    }
+  ],
+  "settings": {
+    "appearance": {
+      "theme": "dark",
+      "fontSize": "medium",
+      "displayDensity": "compact"
+    },
+    "privacy": {
+      "profileVisibility": "public",
+      "searchEngineIndexing": false,
+      "dataSharing": {
+        "analytics": true,
+        "personalizedAds": false
+      }
+    },
+    "security": {
+      "passwordLastChanged": "2022-11-10T11:30:45Z",
+      "mfaEnabled": true,
+      "backupCodes": [
+        "ABCD-EFGH-IJKL",
+        "MNOP-QRST-UVWX",
+        "YZAB-CDEF-GHIJ"
+      ]
+    }
+  },
+  "stats": {
+    "posts": 45,
+    "comments": 128,
+    "followers": 203,
+    "following": 180,
+    "likes": 352,
+    "interactions": {
+      "last7Days": {
+        "posts": 5,
+        "comments": 15,
+        "likes": 25
+      },
+      "last30Days": {
+        "posts": 20,
+        "comments": 50,
+        "likes": 100
+      }
+    }
+  },
+  "metadata": {
+    "createdDate": "2021-06-15T09:12:34Z",
+    "lastLogin": "2023-05-14T16:45:21Z",
+    "accountStatus": "active",
+    "roles": ["user", "editor"],
+    "achievements": [
+      {
+        "title": "First Login",
+        "dateEarned": "2021-06-15T09:13:00Z",
+        "points": 10
+      },
+      {
+        "title": "100 Posts",
+        "dateEarned": "2022-08-22T18:34:56Z",
+        "points": 100
+      }
+    ]
+  },
+  "projects": [
+    {
+      "projectId": "PRJ123",
+      "projectName": "Project Alpha",
+      "status": "in-progress",
+      "tasks": [
+        {
+          "taskId": "T001",
+          "description": "Define requirements",
+          "assignedTo": "Alice",
+          "dueDate": "2023-05-20",
+          "completed": false
+        },
+        {
+          "taskId": "T002",
+          "description": "Design mockups",
+          "assignedTo": "Bob",
+          "dueDate": "2023-06-01",
+          "completed": true
+        }
+      ],
+      "budget": {
+        "total": 50000,
+        "spent": 20000,
+        "currency": "USD"
+      }
+    },
+    {
+      "projectId": "PRJ456",
+      "projectName": "Project Beta",
+      "status": "completed",
+      "tasks": [
+        {
+          "taskId": "T010",
+          "description": "Initial research",
+          "assignedTo": "Charlie",
+          "dueDate": "2022-01-15",
+          "completed": true
+        },
+        {
+          "taskId": "T011",
+          "description": "Final presentation",
+          "assignedTo": "Dana",
+          "dueDate": "2022-04-10",
+          "completed": true
+        }
+      ],
+      "budget": {
+        "total": 75000,
+        "spent": 75000,
+        "currency": "USD"
+      }
+    }
+  ]
+}
+

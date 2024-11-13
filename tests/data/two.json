@@ -1,0 +1,29 @@
+{
+  "productId": "P9876",
+  "productName": "Smartwatch Pro",
+  "category": "Electronics",
+  "price": 199.99,
+  "currency": "USD",
+  "inStock": true,
+  "specifications": {
+    "batteryLife": "48 hours",
+    "waterResistance": "5 ATM",
+    "connectivity": ["Bluetooth", "Wi-Fi", "GPS"],
+    "compatibleOS": ["iOS", "Android"]
+  },
+  "reviews": [
+    {
+      "username": "techlover",
+      "rating": 4.5,
+      "comment": "Great battery life and features!",
+      "date": "2023-02-15T14:33:22Z"
+    },
+    {
+      "username": "watchenthusiast",
+      "rating": 3.8,
+      "comment": "Good, but could be faster.",
+      "date": "2023-03-01T11:12:10Z"
+    }
+  ]
+}
+
